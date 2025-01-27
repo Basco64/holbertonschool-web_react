@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "es6",
+    "outFile": "./dist/main.js",
     "target": "es5",
-    "allowJs": true,
-    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "none",
     "skipLibCheck": true
-  }
+  },
+  "files": [
+    "./js/main.ts"
+  ]
 }
